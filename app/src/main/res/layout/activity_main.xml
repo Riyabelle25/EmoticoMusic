@@ -15,24 +15,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         app:srcCompat="@mipmap/ic_launcher"
         android:layout_marginStart="3dp"
         android:layout_marginLeft="3dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-       />
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        />
 
 
     <Button
         android:id="@+id/getImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="3dp"
         android:layout_marginLeft="3dp"
         android:onClick="getImage"
-        android:text="Get Image" />
+        android:text="Get Image"
+        android:layout_gravity="center"
+        />
 
     <Button
         android:id="@+id/getEmotion"
@@ -40,10 +44,10 @@
         android:layout_height="wrap_content"
         android:text="Get Emotion"
         android:onClick="getEmotion"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="3dp"
         android:layout_marginLeft="3dp"
-
-       />
+        android:layout_gravity="center"
+        />
 
 
     <TextView
@@ -60,7 +64,7 @@
         android:layout_height="26dp"
         android:textSize="20dp"
         android:text="Result:"
-       />
+        />
 
 
 
